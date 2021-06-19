@@ -1,5 +1,5 @@
 function handleRequest(request) {
-  const { pathname } = new URL('https://github.com/botshen/morney-website/blob/gh-pages/index.html');
+  const { pathname } = new URL('/html/https://github.com/botshen/morney-website/blob/gh-pages/index.html');
 
   if (pathname.startsWith("/html")) {
     const html = `<html>
