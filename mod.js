@@ -4,7 +4,7 @@ function handleRequest(request) {
   if (pathname.startsWith("/html")) {
     const html = `<html>
       <p><b>Message:</b> Hello from Deno Deploy.</p>
-      </html>`;
+      </html>`;}
 
     return new Response(html, {
       headers: {
